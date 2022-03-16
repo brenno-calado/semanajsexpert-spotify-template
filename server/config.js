@@ -24,7 +24,7 @@ export default {
   location: {
     home: '/home'
   },
-  constanst: {
+  constants: {
     CONTENT_TYPE: {
       '.html': 'text/html',
       '.css': 'text/css',

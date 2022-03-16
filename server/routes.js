@@ -2,7 +2,7 @@ import { logger } from "./utils.js"
 import config from "./config.js"
 import { Controller } from "./controller/controller.js"
 
-const { location, pages: { home, controller: controllerHTML }, constanst: { CONTENT_TYPE } } = config
+const { location, pages: { home, controller: controllerHTML }, constants: { CONTENT_TYPE } } = config
 const controller = new Controller()
 
 async function routes(request, response) {
