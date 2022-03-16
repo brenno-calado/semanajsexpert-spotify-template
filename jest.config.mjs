@@ -30,7 +30,8 @@ export default {
       displayName: "backend",
       collectCoverageFrom: [
         "server/",
-        "!server/index.js"
+        "!server/index.js",
+        "!tests/unit"
       ],
       transformIgnorePatterns: [
         ...defaultConfig.transformIgnorePatterns,
