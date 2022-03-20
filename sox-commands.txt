@@ -1,0 +1,10 @@
+// novo output
+sox -t mp3 "audio/fx/Boo! Sound Effect (128 kbps).mp3" -r 9001 -t mp3 "audio/fx/out.mp3"
+
+// obter bitrate
+sox --i -B "audio/fx/Boo! Sound Effect (128 kbps).mp3"
+
+// concatenar dois audios
+sox -t mp3 -m "audio/songs/conversation.mp3" \
+  -t mp3 "audio/fx/Fart - Gaming Sound Effect (HD) (128 kbps).mp3" \
+  -t mp3 "audio/output.mp3"
